@@ -17,7 +17,7 @@ async def say_hello(name: str):
 
 @app.post("/inference", status_code=200)
 def inference(doc: Document):
-    ingredientes = process_inference(doc.item)
+    CODIGO = process_inference(doc.item)
     return {
-        'response': ingredientes
+        'response': CODIGO
     }
