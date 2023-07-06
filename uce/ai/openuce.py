@@ -1,8 +1,8 @@
 import openai
 from pydantic import BaseModel
 
-openai.organization = 'org-qlfeJ5qRmqdxY6Vi6lA8OI68'
-openai.api_key = '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'
+openai.organization = 'empresa'
+openai.api_key = 'personal'
 
 
 class Document(BaseModel):
